@@ -468,3 +468,4 @@ class LeechCoreBarContextImpl implements ILeechCoreBarContext
         return "LeechCoreBarContext";
     }
 }
+
