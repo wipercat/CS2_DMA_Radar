@@ -31,3 +31,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
         return "VmmMap_PteEntry:" + Long.toHexString(vaBase) + ":" + Long.toHexString(cPages);
     }
 }
+
