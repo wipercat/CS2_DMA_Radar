@@ -927,3 +927,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
 	boolean VMMDLL_WinReg_EnumValueU(Pointer hVMM, String uszFullPathKey, int dwIndex, byte[] lpValueName, IntByReference lpcchValueName, IntByReference lpType, byte[] lpData, IntByReference lpcbData);
 	boolean VMMDLL_WinReg_QueryValueExU(Pointer hVMM, String uszFullPathKeyValue, IntByReference lpType, byte[] lpData, IntByReference lpcbData);
 }
+
