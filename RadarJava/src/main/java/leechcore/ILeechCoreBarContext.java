@@ -23,3 +23,4 @@ public interface ILeechCoreBarContext
 	public void close();
 }
 
+
