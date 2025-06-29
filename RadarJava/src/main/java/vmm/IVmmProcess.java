@@ -283,3 +283,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
     public List<VmmMap_VadExEntry> mapVadEx(int oPage, int cPage);
     
 }
+
