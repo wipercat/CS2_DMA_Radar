@@ -111,3 +111,4 @@ interface LeechCoreNativeEx extends Library
     LeechCoreNativeEx INSTANCE = Native.load("leechcore", LeechCoreNativeEx.class);
     boolean LcCommand(Pointer hLC, long fCommand, int cbDataIn, Callback pbDataIn, PointerByReference ppbDataOut, IntByReference pcbDataOut);
 }
+
